@@ -1,35 +1,52 @@
+/*-------header--------*/
+body{background-color: transparent;
+opacity: 0.80;background-attachment: scroll;
+}
 .fcontainer{ background-color: #00ffff;
      text-decoration: none;
       height:fit-content;
        width:inherit; 
-       border: 2px solid grey;
+      
     display: flex;
     font-weight: 900;
     font-size: x-large;
-    /* flex-direction: column-reverse; */
-     justify-content: flex-end; 
-    /* justify-content: flex-start; */
-   /* justify-content: center;*/
-    /* align-items: center;
-    align-items: flex-end;
-    align-items: flex-start; */
-    /* flex-wrap: wrap; */
-    /* flex-wrap: wrap-reverse; */
-    /* flex-flow: column wrap;*/
+     justify-content:space-between; 
     padding-top: 10px;
     margin-top: 0px;
-/*flex-direction: column-reverse;*/
-opacity: 0.23;
+opacity: 0.80;
 }
 .fcontainer:hover{ display: flex;
-background-color: gray;
+background-color: black;
 height: fit-content;}
+.searchfild{ background-color: black; font-family: cursive; color: white; font-size: 20px;}
+/*---------main--------*/
+.main1{ margin-top: 200px; color: aliceblue; text-align: center; text-decoration: overline underline;}
 
 
 
-.fa { border: 2px solid gray;
-}
-.fitem{ color: green; border: 0px solid blue ; padding-top: 18px; opacity: 1;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
