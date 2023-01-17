@@ -1,12 +1,9 @@
 /*-------header--------*/
-body{background-color: transparent;
-opacity: 0.80;background-attachment: scroll;
-}
+
 .fcontainer{ background-color: #00ffff;
      text-decoration: none;
       height:fit-content;
        width:inherit; 
-      
     display: flex;
     font-weight: 900;
     font-size: x-large;
@@ -17,14 +14,35 @@ opacity: 0.80;
 }
 .fcontainer:hover{ display: flex;
 background-color: black;
-height: fit-content;}
-.searchfild{ background-color: black; font-family: cursive; color: white; font-size: 20px;}
+height: fit-content;
+visibility:visible;
+}
+
 /*---------main--------*/
-.main1{ margin-top: 200px; color: aliceblue; text-align: center; text-decoration: overline underline;}
+.sow{background:linear-gradient(120deg,rgb(47, 239, 253) 50%,rgb(216, 239, 239) 50%);
+    opacity: 0.80;background-attachment: scroll}
 
+    .container{animation:glow 2s ease-in-out infinite;
+    }
+    @keyframes glow{
+        0%,100%{ color: #fff; text-shadow: 0 0 12px lime,0 0 50px,0 0 100px lime, }
+        10%, 90%{ color: black; text-shadow: none;
 
+        }
+    }
+    .sow > span:nth-child(0){animation-delay:0.25s ;}
+    .sow > span:nth-child(1){animation-delay: 0.5s;}
+    .sow > span:nth-child(2){animation-delay:0.75s ;}
+.hs{ margin-top: 180px; color:rgb(242, 244, 248); text-align: center;font-size: 12vh; position: relative; text-transform: uppercase; border-right:solid 6px #039fff;}
 
+.so{-webkit-text-stroke: #26f307; -webkit-text-stroke-width: 2px; }
 
+.fo{-webkit-text-stroke: #a49754; -webkit-text-stroke-width: 2px;}
+
+.go{-webkit-text-stroke: #039fff; -webkit-text-stroke-width: 2px;}
+.fa-search{ size:20px ; cursor:pointer; }
+.nav12{background-color: #d6e61de6; min-width: 250px; text-align: center; height: 40px; border-radius: 30px;}
+.ru1{height: 30px;  width: 300px; border-radius: 30px;}
 
 
 
