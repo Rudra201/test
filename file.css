@@ -1,108 +1,113 @@
 /*-------header--------*/
 .fcontainer{ background-color:rgb(235, 130, 104);
-     text-decoration: none;
-      height:fit-content;
-       width:inherit; 
-    display: flex;
+    text-decoration: none;
+     height:fit-content;
+      width:inherit; 
+   display: flex;
 font-family:cursive;
 font-weight: 600;
-    font-size: x-large;
-     justify-content:space-evenly; 
-    padding-top: 10px;
-    margin-top: 0px;
-;}
+   font-size: x-large;
+    justify-content:space-evenly; 
+   padding-top: 10px;
+   margin-top: 0px;
+}
 
 .fcontainer:hover{ display: flex;
-background-color: peachpuff;
+background-color: olivedrab;
 height: fit-content;
 }
 
 /*---------main--------*/
 .sow{background:linear-gradient(120deg,rgb(0, 242, 255) 50%,rgb(216, 239, 239) 50%);
-    opacity: 0.80;
-    background-attachment: scroll}
-.hs{ margin-top: 180px; 
-    color:white;
-    justify-content: center;
-    font-size: 12vh;
-     position:relative;
-      text-transform: uppercase; 
-      border-right:solid 6px #20ff03;
-      border-left:solid 6px #20ff03;
-       display: flex;
-          gap: 40px;
-}
-.so{-webkit-text-stroke: #26f307 2px;}
-.go{-webkit-text-stroke: #039fff 2px;}
+   opacity: 0.80;
+   background-attachment: scroll;border: solid 6px #20ff03;}
+.container{ margin-top: 100px; 
+   margin-bottom: 100px;
+   color:white;
+   justify-content: center;
+   font-size: 18vh;
+    position:relative;
+     text-transform: uppercase; 
+      display: flex;
+         gap: 40px;}
+
+.so{-webkit-text-stroke: #26f307 2px; transition-property: all; }
+.so:hover{transition-duration: 1sec; transition-timing-function: ease-in; color: rgb(255, 234, 4);   text-shadow: 4ch black;}
+.go{-webkit-text-stroke: #039fff 2px; transition-property: all;}
+.go:hover{transition-duration: 1sec; transition-timing-function: ease-in; color: rgb(9, 237, 153);   text-shadow: 4ch black;}
+
 .sea{background-color:white;
-     position:relative;
-      height:37px; 
-      width:250px;
-       border-radius: 10px; 
-       margin-top: 3px; 
-        font-size: 16px;
-        padding-left: 12px;
-         margin-left: 30px;
-          margin-bottom: 12px;}
- 
+    position:relative;
+     height:37px; 
+     width:250px;
+      border-radius: 10px; 
+      margin-top: 3px; 
+       font-size: 16px;
+        margin-left: 30px;
+         margin-bottom: 12px;
+       }
+
 
 .btn{background-color:black;
-     color: darkgreen;
-      height:40px;
-       width:80px;
-        border-radius: 8px;
-    border: solid darkgreen 1px;
- font-size: 16px;
-  cursor: pointer; }
+    color: darkgreen;
+     height:40px;
+      width:80px;
+       border-radius: 8px;
+   border: solid darkgreen 1px;
+font-size: 16px;
+ cursor: pointer; 
+margin-left: -70px;
+margin-top: 3px;}
 
 .btn:hover{ background-color: darkgreen;
-     color: white; }
-     
+    color: white; }
+    /* cards */
+    
 .card {
-    display: flex;
-    width: 450px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition-property: all;
-    border-radius: 5px;
-    margin: 20px;
-    overflow: hidden;
-    display: inline-block;
-    background-color: white;
-    height: 300px;
+   display: flex;
+   width: 450px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition-property: all;
+   border-radius: 5px;
+   margin: 20px;
+   overflow: hidden;
+   display: inline-block;
+   background-color: white;
+   height: 300px;
 }
 
 .card img {
-    width: 100%;
-    height:100%;
+   width: 100%;
+   height:100%;
 }
 
 .card-content {
-    padding: 20px;
+   padding: 20px;
 }
 
 .card-content h2 {
-    margin-top: 0;
-    font-size: 22px;
+   margin-top: 0;
+   font-size: 22px;
 }
 
 .card:hover {
-    box-shadow:  10px 8px 16px 10px black;
+   box-shadow:  10px 8px 16px 10px black;
 transition-duration: 1s;
 }
 
 /* footer */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  opacity: 0.50;
-  font-size: 20px;
+ background-color: #333;
+ color: #fff;
+ padding: 1em;
+ opacity: 0.50;
+ font-size: 20px;
 }
 
 footer a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 1em;
-  font-size: 20px;
-  
+ color: #fff;
+ text-decoration: none;
+ margin-right: 1em;
+ font-size: 20px;
+ 
 }
